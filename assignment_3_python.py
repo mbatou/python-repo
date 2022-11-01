@@ -24,7 +24,8 @@ class ProductManager():
         pass
 
 class trainee():
-    def maintenance(self):
+    @abstractmethod
+    def maintenance(self, contract):
         print("Doing my job")
 
 new_tenant = ProductManager()
